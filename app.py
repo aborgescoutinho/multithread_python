@@ -45,7 +45,6 @@ def patch_request(post_id):
     print(f"[{EXECUTION_MODE}] [PATCH] {url} - Status: {response.status_code}")
     return response.status_code
 
-
 # ---------------- DELETE ----------------
 def delete_request(post_id):
     url = f"{BASE_URL}/posts/{post_id}"
@@ -55,7 +54,6 @@ def delete_request(post_id):
     )
     print(f"[{EXECUTION_MODE}] [DELETE] {url} - Status: {response.status_code}")
     return response.status_code
-
 
 # =========================================================
 # SINGLE THREAD
@@ -88,14 +86,12 @@ def worker(i):
     patch_request(i)
     delete_request(i)
 
-
-
 def run_multithread():
     global EXECUTION_MODE
     EXECUTION_MODE = "MULTITHREAD"
     inicio = time.time()
 
-    with ThreadPoolExecutor(max_workers=100) as executor: # number of threads
+    with ThreadPoolExecutor(max_workers=20) as executor: # number of threads
         executor.map(worker, range(1, 50)) # number of tasks = 101
 
     fim = time.time()
@@ -109,5 +105,5 @@ def run_multithread():
 # =========================================================
 
 if __name__ == "__main__":
-    run_single_thread()
+    #run_single_thread()
     run_multithread()

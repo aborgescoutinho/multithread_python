@@ -20,3 +20,8 @@ Tempo total: 130.49 segundos
 ===== MULTITHREAD =====
 Tempo total: 26.61 segundos
 
+############### asyncio e aiohttp ###
+
+===== ASYNC MULTITASK =====
+Tempo total: 2.10 segundos
+

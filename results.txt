@@ -1,0 +1,22 @@
+#####################################################################################
+25 threads 50 requisições:
+===== SINGLE THREAD =====
+Tempo total: 130.49 segundos
+
+===== MULTITHREAD =====
+Tempo total: 28.89 segundos
+#####################################################################################
+50 threads 50 requisições:
+===== SINGLE THREAD =====
+Tempo total: 130.49 segundos
+
+===== MULTITHREAD =====
+Tempo total: 29.32 segundos
+#####################################################################################
+100 threads 50 requisições:
+===== SINGLE THREAD =====
+Tempo total: 130.49 segundos
+
+===== MULTITHREAD =====
+Tempo total: 26.61 segundos
+

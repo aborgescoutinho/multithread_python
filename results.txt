@@ -21,6 +21,8 @@ Tempo total: 130.49 segundos
 Tempo total: 26.61 segundos
 
 ############### asyncio e aiohttp ###
+===== ASYNC SINGLE =====
+Tempo total: 60.25 segundos
 
 ===== ASYNC MULTITASK =====
 Tempo total: 2.10 segundos

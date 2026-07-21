@@ -125,7 +125,7 @@ async def run_single_thread():
     fim = time.time()
 
     print("\n===== ASYNC SINGLE =====")
-    print(f"Tempo total: {fim - inicio:.2f} segundos")
+    print(f"Total time: {fim - inicio:.2f} seconds")
 
 
 # =========================================================
@@ -173,7 +173,7 @@ async def run_async_multitask():
     fim = time.time()
 
     print("\n===== ASYNC MULTITASK =====")
-    print(f"Tempo total: {fim - inicio:.2f} segundos")
+    print(f"Total time: {fim - inicio:.2f} seconds")
 
 
 # =========================================================

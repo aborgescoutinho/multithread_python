@@ -1,29 +1,29 @@
 #####################################################################################
-25 threads 50 requisições:
+25 threads 50 requests:
 ===== SINGLE THREAD =====
-Tempo total: 130.49 segundos
+Total time: 130.49 seconds
 
 ===== MULTITHREAD =====
-Tempo total: 28.89 segundos
+Total time: 28.89 seconds
 #####################################################################################
-50 threads 50 requisições:
+50 threads 50 requests:
 ===== SINGLE THREAD =====
-Tempo total: 130.49 segundos
+Total time: 130.49 seconds
 
 ===== MULTITHREAD =====
-Tempo total: 29.32 segundos
+Total time: 29.32 seconds
 #####################################################################################
-100 threads 50 requisições:
+100 threads 50 requests:
 ===== SINGLE THREAD =====
-Tempo total: 130.49 segundos
+Total time: 130.49 seconds
 
 ===== MULTITHREAD =====
-Tempo total: 26.61 segundos
+Total time: 26.61 seconds
 
 ############### asyncio e aiohttp ###
 ===== ASYNC SINGLE =====
-Tempo total: 60.25 segundos
+Total time: 60.25 seconds
 
 ===== ASYNC MULTITASK =====
-Tempo total: 2.10 segundos
+Total time: 2.10 seconds
 

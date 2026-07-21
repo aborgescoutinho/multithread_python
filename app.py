@@ -73,7 +73,7 @@ def run_single_thread():
     fim = time.time()
 
     print("\n===== SINGLE THREAD =====")
-    print(f"Tempo total: {fim - inicio:.2f} segundos")
+    print(f"Total time: {fim - inicio:.2f} seconds")
 
 
 # =========================================================
@@ -97,7 +97,7 @@ def run_multithread():
     fim = time.time()
 
     print("\n===== MULTITHREAD =====")
-    print(f"Tempo total: {fim - inicio:.2f} segundos")
+    print(f"Total time: {fim - inicio:.2f} seconds")
 
 
 # =========================================================

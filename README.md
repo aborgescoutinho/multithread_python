@@ -1,5 +1,2 @@
-Criar ambiente virtual .venv
-Instalar o pacote requests no ambiente virtual .venv
-
-test
-
+create virtual environment .venv
+install libs into .venv env

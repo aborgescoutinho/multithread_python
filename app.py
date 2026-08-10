@@ -105,5 +105,5 @@ def run_multithread():
 # =========================================================
 
 if __name__ == "__main__":
-    #run_single_thread()
+    run_single_thread()
     run_multithread()
